@@ -14,7 +14,7 @@ const createItem = (array) => {
     const item = document.createElement("li");
     item.classList.add("item")
     item.textContent = array[i]
-    list.append(item)
+    console.log(item)
   }
 }
 

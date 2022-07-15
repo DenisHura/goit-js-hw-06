@@ -14,6 +14,7 @@ function onFormSubmit(event) {
 
     if (email.trim === "" || password.trim() === "") {
         alert("Необходимо заполнить все поля");
+        return;
     }
 
     const formData = {
